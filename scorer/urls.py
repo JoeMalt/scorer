@@ -24,4 +24,5 @@ urlpatterns = patterns('',
     url(r'^setstatus/(?P<type>\w+)$', views.set_status),
     url(r'^controls/$', views.controls),
     url(r'^exportcsv/$', views.export_csv)
+    url(r'^top3/$', views.top3)
 )
